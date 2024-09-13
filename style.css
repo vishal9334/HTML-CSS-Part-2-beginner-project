@@ -1,0 +1,643 @@
+/* This is boilar plate of css. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+}
+#main{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+}
+#nav-left{
+    width: 25vw;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#nav-rigth{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+#left-nav-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background-color: black;
+}
+#centerArea{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+}
+#center-left{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+#text-write{
+    width: 95%;
+    height: 90%;
+    margin-top: 20%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+#text-write p{
+    font-size: 15px;
+    text-align: center;
+}
+#text-write h1{
+    font-size:80px;
+    font-weight: 500;
+}
+#text-write h4{
+    font-size: 25px;
+}
+#text-write button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+#center-right{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#center-right img{
+    width: 95%;
+    height: 100%;
+    background-position:right;
+    margin-top: 20%;
+}
+
+#sec-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h2-div{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+#h2-div p{
+    font-size: 1.8em;
+    text-align: center;
+}
+#shoelack-logo{
+    width: 30%;
+    height: 40%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+#shoelack-logo img{
+    background-size: cover;
+    background-position:center;
+    width: 80px;
+    
+}
+#shoelack-logo #p1{
+    font-size: 12px;
+    font-weight: bold;
+}
+#shoelack-logo #p2{
+    font-size: 12px;
+    font-weight: 500;
+}
+#third-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgba(250, 235, 215, 0.55);
+}
+#third-left{
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+#third-left img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    position: relative;
+    left: 220px;
+    top: 150px;
+}
+#third-right{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#third-child{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    right: 100px;
+    padding: 50px;
+}
+#third-child #p3{
+    font-size: 12px;
+}
+#third-child h1{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#third-child #p4{
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+/* then rename all for fourth properties ok */
+#fourth-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgba(250, 235, 215, 0.55);
+}
+#fourth-right{
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+#fourth-right img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    position: relative;
+    right: 0px;
+    top: 150px;
+}
+#fourth-left{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#fourth-child{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 100px;
+    padding: 50px;
+}
+#fourth-child #p5{
+    font-size: 12px;
+}
+#fourth-child h1{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#fourth-child #p6{
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+#fifth-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #faebd78c;
+    
+}
+#fifth-left{
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+   
+}
+#fifth-left img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    position: relative;
+    left: 220px;
+    top: 150px;
+}
+#fifth-right{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#fifth-child{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    right: 100px;
+    padding: 50px;
+}
+#fifth-child #p7{
+    font-size: 12px;
+}
+#fifth-child h1{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#fifth-child #p8{
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+#fifth-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background-color: black;
+}
+#spn-btn{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#faebd78c;
+}
+
+#logos{
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#logos h1{
+    text-align: center;
+}
+#logos #logo-brands-outter{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-brands-inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo1,#logo2, #logo3, #logo4,#logo5, #logo6 {
+    width: 100px;
+    height: 100px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#logo1 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+#logo2 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+#logo3 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+#logo4 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+#logo5 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+#logo6 img{
+    object-fit: cover;
+    background-size:auto;
+    width: 50%;
+    height: 50%;
+}
+
+#six-page{
+    width: 100vw;
+    height: 130vh;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#six-page1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+#six-page1 h1{
+    font-size: 50px;
+   
+    font-weight: 500;
+    text-align: center;
+
+}
+#six-page1 p{
+    text-align: center;
+    
+}
+#six-page-btns1{
+    width: 20%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+}
+#month{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#six-page-btns2{
+    width: 68%;
+    height: 100%;
+    background-color: rgba(100, 218, 102, 0.315);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#save{
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(90, 150, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#six-page2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: black;
+    gap: 25px;
+}
+#card-1 , #card-2, #card-3{
+    width: 23%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#up{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#up p{
+    font-size: 11px;
+    font-weight: 500;
+}
+#six-page-center{
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+#six-page-center h1{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    font-weight: 600;
+}
+#six-page-center #pp{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+#six-page-center p{
+    font-size: 12px;
+    text-align: center;
+}
+#six-page-center button{
+    width: 80%;
+    height: 25%;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+#six-page-bottom{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+#span-p1{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+    
+}
+#span-p2{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+#span-p3{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+#span-p4{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+#span-p5{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+#span-p6{
+    width: 90%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+#span-p1,#span-p2,#span-p3,#span-p4,#span-p5,#span-p6{
+    display: flex;
+    align-items: center;
+    
+}
+#bootm-bar{
+    width: 100%;
+    height: 60%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#bottom-h1-btn{
+    width: 70%;
+    height: 60%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#bottom-h1-btn h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+#bottom-h1-btn button{
+    width: 18%;
+    height: 15%;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+   
+}
+#navbar-bottom{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: -70px;
+}
+/* ctrl plus A with to now copy all third page css properties 
+for press shift plus alt */
